@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página web AlexCG Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/6a584ecf9c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="hero">
         <nav class="nav__hero">
             <div class="container nav__container">
                 <div class="logo">
-                    <h2 class="logo__name">AlexCG Design<span class="point">.</span></h2>
+                    <h2 class="logo__name">HernanEM Design<span class="point">.</span></h2>
                 </div>
                 <div class="links">
-                    <a href="#" class="link">Inicio</a>
-                    <a href="#" class="link">Servicios</a>
-                    <a href="#" class="link">Proyectos</a>
-                    <a href="#" class="link">Clientes</a>
-                    <a href="#" class="link link--active">Contacto</a>
+                    <a href="#seccion1" class="link">Inicio</a>
+                    <a href="#seccion2" class="link">Servicios</a>
+                    <a href="#seccion3" class="link">Proyectos</a>
+                    <a href="#seccion4" class="link">Clientes</a>
+                    <a href="#seccion5" class="link">Capacitaciones</a>
+                    <a href="formulario.html" class="link link--active">Contacto</a>
                 </div>
             </div>
         </nav>
 
-        <section class="container hero__main">  
+        <section class="container hero__main" id="seccion1">   
             <div class="hero__textos">
                 <h1 class="title">La mejor <span class="title--active">Experiencia Digital.</span></h1> 
                 <p class="copy">Nos encargamos de llevar tu idea al <span class="copy__active">siguiente nivel</span></p>
@@ -35,7 +38,7 @@
     </header>
 
     <main>
-        <section class="services">
+        <section class="services" id="seccion2">
             <div class="container">
                 <h2 class="subtitle">Nuestros servicios<span class="point">.</span></h2>
                 <p class="copy__section">Ofrecemos las soluciones perfectas para revolución digital</p>
@@ -71,7 +74,7 @@
             </div>
         </section>
 
-        <section class="projects container">
+        <section class="projects container" id="seccion3">
             <h2 class="subtitle">Proyectos recientes<span class="point">.</span></h2>
             <p class="copy__section">Reconocidos a nivel nacional</p>
             <article class="container-bg">
@@ -108,7 +111,7 @@
             </article>
         </section>
 
-        <section class="testimony">
+        <section class="testimony" id="seccion4">
             <div class="container">
                 <h2 class="subtitle">Clientes satisfechos<span class="point">.</span></h2>
                 <p class="copy__section">Cientos de empresas confian en nosotros</p>
@@ -152,12 +155,12 @@
                 </div>
             </div>
         </section> 
-        <section>
+        <section id="seccion5">
             <div class="container">
                 <h2 class="subtitle">Capacitaciones<span class="point">.</span></h2> 
-                <p class="copy__section">El conocimiento cambia al mundo</p>
+                <p class="copy__section">El conocimiento cambia el mundo</p>
                 <table>
-                    <caption>Cursos Digitales</caption>
+                    <caption></caption>
                     <thead>
                         <tr>
                             <th>Diplomados</th>
@@ -179,8 +182,45 @@
                             <td>4 Meses</td>
                             <td>$1.200.000</td>
                         </tr>
+                        <tr>
+                            <td>Full Stack</td>
+                            <td>Presencial</td>
+                            <td>4 Meses</td>
+                            <td>$1.600.000</td>
+                        </tr>
                     </tbody>
                 </table>
+            </div>
+        </section>
+        <section>
+            <video src="video/tendencias.mp4" controls></video>
+        </section>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/desarrollo1.jpg" class="d-block w-100" width="50px" height="500px" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/desarrollo2.jpg" class="d-block w-100" width="50px" height="500px" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/desarrollo3.jpg" class="d-block w-100" width="50px" height="500px" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
     </main>
@@ -200,7 +240,7 @@
                     </div>
                 </div>
                 <div class="footer__copy">
-                    <p class="copyright">AlexCG &copy; 2020 Todos los derechos reservados</p>
+                    <p class="copyright">Hernan Enriquez &copy; 2022 Todos los derechos reservados</p>
     
                     <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
                     <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
@@ -238,10 +278,12 @@
             </div>
             <div class="item__contact">
                 <i class='bx bxs-chat contact__icon contact__icon--modifier' ></i>
-                <h3 class="contact__title">Contactanos ahora</h3>
+                <h3 class="contact__title">Contáctanos ahora</h3>
             </div>
         </div>
     </footer>
+    <a class="botonup" href="#" ><i class="fa-solid fa-upload"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
 
