@@ -356,6 +356,8 @@ body{
 
 table{
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th,td{
@@ -371,6 +373,28 @@ tbody>tr:hover{
     background-color:#DFD5D2;
 }
 
+/* video */
+video{
+    margin: auto;
+    display:block;
+    margin-bottom: 10px;   
+}
+
+/* Boton UP */
+
+.botonup{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
 /* footer */
 
 .footer{
