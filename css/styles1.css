@@ -45,7 +45,8 @@ input, textarea{
 iframe{
     
     width: 80%;
-    padding: 10px 140px;
+    margin-bottom: 20px;
+    margin-left: 150px;
 
 }
 

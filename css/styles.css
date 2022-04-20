@@ -43,7 +43,7 @@ body{
 .nav__hero{
     color: #fff;
     height: 70px;
-    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    border-bottom: 1px solid white;
 }
 
 .nav__container{
@@ -373,11 +373,12 @@ tbody>tr:hover{
     background-color:#DFD5D2;
 }
 
-/* video */
-video{
+iframe{
     margin: auto;
-    display:block;
-    margin-bottom: 10px;   
+    display: block;
+    margin-bottom: 10px;
+    width: 1000px;
+    height: 500px;
 }
 
 /* Boton UP */
